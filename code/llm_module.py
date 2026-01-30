@@ -59,7 +59,7 @@ except ImportError:
     logger.debug("🤖💥 Error importing dotenv, skipping .env load.")
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://127.0.0.1:11434")
+OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://192.168.111.160:11434")
 LMSTUDIO_BASE_URL = os.getenv("LMSTUDIO_BASE_URL", "http://127.0.0.1:1234/v1")
 
 # --- Backend Client Creation/Check Functions ---
