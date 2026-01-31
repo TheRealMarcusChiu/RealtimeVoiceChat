@@ -27,7 +27,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from starlette.responses import HTMLResponse, Response, FileResponse
 
-USE_SSL = False
+USE_SSL = True
 # TTS_START_ENGINE = "orpheus"
 TTS_START_ENGINE = "kokoro"
 # TTS_START_ENGINE = "coqui"
